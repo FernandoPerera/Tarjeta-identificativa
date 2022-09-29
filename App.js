@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 /**
@@ -8,8 +7,19 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+
+      <View style={styles.headerContainer}>
+        
+      </View>
+
+      <View style={styles.biographyContainer}>
+        
+      </View>
+
+      <View style={styles.qrContainer}>
+
+      </View>
+
     </View>
   );
 }
@@ -17,8 +27,18 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  headerContainer: {
+    backgroundColor: 'lightgray',
+    flex: 1,
+    width: '100%'
+  },
+  biographyContainer: {
+    flex: 2
+  },
+  qrContainer: {
+    flex: 1
+  }
 });
