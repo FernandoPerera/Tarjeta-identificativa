@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
         flex: 3
     },
     imagenUsuario: {
-        height: 100,
-        width: 100,
+        height: 92,
+        width: 92,
         borderStyle: 'solid',
         borderWidth: '3',
         borderColor: 'black',
