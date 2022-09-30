@@ -1,5 +1,6 @@
-import { StyleSheet, View } from 'react-native';
-import Header from "./components/Header";
+import { StyleSheet, View } from 'react-native'
+import Header from './components/Header'
+import Biography from './components/Biography'
 
 /**
  * Usar git y ir generando la documentación en el Readme
@@ -12,12 +13,11 @@ const App = () => {
     <View style={styles.container}>
 
       <View style={styles.headerContainer}>
-
         <Header />
       </View>
 
       <View style={styles.biographyContainer}>
-        
+        <Biography/>
       </View>
 
       <View style={styles.qrContainer}>
@@ -43,7 +43,11 @@ const styles = StyleSheet.create({
     width: '100%'
   },
   biographyContainer: {
-    flex: 2
+    flex: 2,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 10,
+    marginRight: 10
   },
   qrContainer: {
     flex: 1
