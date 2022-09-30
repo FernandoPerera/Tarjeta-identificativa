@@ -1,15 +1,19 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Header from "./components/Header";
 
 /**
  * Usar git y ir generando la documentación en el Readme
+ * 
+ * No accede al componente de Header
  */
 
-export default function App() {
+const App = () => {
   return (
     <View style={styles.container}>
 
       <View style={styles.headerContainer}>
-        
+
+        <Header />
       </View>
 
       <View style={styles.biographyContainer}>
@@ -32,7 +36,10 @@ const styles = StyleSheet.create({
   },
   headerContainer: {
     backgroundColor: 'lightgray',
+    alignItems: 'center',
+    justifyContent: 'center',
     flex: 1,
+    flexDirection: 'row',
     width: '100%'
   },
   biographyContainer: {
@@ -42,3 +49,5 @@ const styles = StyleSheet.create({
     flex: 1
   }
 });
+
+export default App;
