@@ -9,7 +9,7 @@ const Qr = () => {
             <QRCode value='https://github.com/FernandoPerera' />
         </View>
 
-        <Text style={styles.qrText}>     Accede a mi {'\n'}GitHub personal</Text>
+        <Text style={styles.qrText}>    Accede a mi {'\n'}GitHub personal</Text>
 
       </View>
     )

@@ -3,12 +3,6 @@ import Header from './components/Header'
 import Biography from './components/Biography'
 import Qr from './components/Qr';
 
-/**
- * Usar git y ir generando la documentación en el Readme
- * 
- * No accede al componente de Header
- */
-
 const App = () => {
   return (
     <View style={styles.container}>
