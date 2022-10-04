@@ -1,4 +1,5 @@
 import { StyleSheet, View } from 'react-native'
+
 import Header from './components/Header'
 import Biography from './components/Biography'
 import Qr from './components/Qr';
