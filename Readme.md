@@ -54,10 +54,10 @@ componente al que llamé **Header** y con la creación de estilos.
 
 - En el apartado del QR es necesario instalar unas librerías para su uso de esta manera :
 
-<pre><code>expo add react-native-svg</code></pre> 
+<pre><code>npx expo install react-native-svg</code></pre> 
 
 - - *Esto permite usar SVG en la aplicación, con soporte para interactividad y animación.*
 
-<pre><code>expo add react-native-qrcode-svg</code></pre> 
+<pre><code>npx expo install react-native-qrcode-svg</code></pre> 
 
 - - *Permite generar un QR para su uso.* 

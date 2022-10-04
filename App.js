@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native'
 import Header from './components/Header'
 import Biography from './components/Biography'
+import Qr from './components/Qr';
 
 /**
  * Usar git y ir generando la documentación en el Readme
@@ -21,7 +22,7 @@ const App = () => {
       </View>
 
       <View style={styles.qrContainer}>
-
+        <Qr />
       </View>
 
     </View>
@@ -40,14 +41,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 1,
     flexDirection: 'row',
-    width: '100%'
+    width: '100%',
   },
   biographyContainer: {
     flex: 2,
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: 10,
-    marginRight: 10
+    paddingHorizontal : 10
   },
   qrContainer: {
     flex: 1
