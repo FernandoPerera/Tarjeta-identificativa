@@ -3,6 +3,9 @@
 
 ***Tarjeta identificativa***
 - 
+
+Este proyecto trata de realizar una aplicación móvil dando uso de React-Native, sobre una tarjeta identificativa propia en la que añadamos un código QR que nos diriga hacía mi perfil de github.
+
 <br>
 
 #### **| Gestión de ramas |**
